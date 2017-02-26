@@ -1,0 +1,49 @@
+body{
+  margin:0;
+  background: whitesmoke;
+}
+.header{
+  background: red;
+  height: 50px;
+}
+.nav-bar{
+  position: relative;
+  background: black;
+  height: 50%;
+  width: 70%;
+  margin-left: 15%;
+  top: 25%;
+  justify-content: center;
+}
+.nav-bar:hover{
+  background: whitesmoke;
+}
+.main-content{
+  display: flex;
+  background: blue;
+  height: 500px;
+  width: 60%;
+  margin-left: 20%;
+  justify-content: center;
+}
+.group-icons{
+  display: flex;
+  padding-left: 0;
+}
+.icon{
+  background: yellow;
+  height: 50px;
+  width: 50px;
+  margin-left: 15px;
+  list-style: none;
+}
+.icon:hover{
+  background: green;
+}
+.icon1{
+  margin:0;
+}
+.footer{
+  background: green;
+  height: 50px;
+}

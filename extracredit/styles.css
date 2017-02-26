@@ -1,0 +1,52 @@
+body{
+  margin:0;
+  background: whitesmoke;
+}
+.header{
+  position: fixed;
+  background: rgba(0,0,0,.75);
+  height: 50px;
+  width: 100%;
+}
+img{
+  margin-left: 5%;
+  margin-top: 5px;
+  display: inline-block;
+  width: 100px;
+  height: auto;
+}
+.nav-bar{
+  background: white;
+  height: 50%;
+  width: 80%;
+  margin-left: 10%;
+}
+.main-content{
+  display: flex;
+  background: blue;
+  height: 500px;
+  width: 80%;
+  margin-left: 10%;
+  justify-content: center;
+}
+.group-icons{
+  display: flex;
+  padding-left: 0;
+}
+.icon{
+  background: yellow;
+  height: 50px;
+  width: 50px;
+  margin-left: 15px;
+  list-style: none;
+}
+.icon:hover{
+  background: green;
+}
+.icon1{
+  margin:0;
+}
+.footer{
+  background: green;
+  height: 50px;
+}
