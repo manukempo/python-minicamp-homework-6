@@ -5,46 +5,124 @@ body{
 .header{
   position: fixed;
   background: rgba(0,0,0,.75);
-  height: 50px;
+  height: 120px;
   width: 100%;
 }
 img{
-  margin-left: 5%;
-  margin-top: 5px;
-  display: inline-block;
-  width: 100px;
+  margin-left: 50px;
+  margin-top: 15px;
+  width: 150px;
   height: auto;
 }
 .nav-bar{
-  background: white;
-  height: 50%;
+  display: flex;
   width: 80%;
   margin-left: 10%;
-}
-.main-content{
-  display: flex;
-  background: blue;
-  height: 500px;
-  width: 80%;
-  margin-left: 10%;
-  justify-content: center;
-}
-.group-icons{
-  display: flex;
-  padding-left: 0;
-}
-.icon{
-  background: yellow;
-  height: 50px;
-  width: 50px;
-  margin-left: 15px;
+  padding: 0;
   list-style: none;
+  justify-content: center; /*Center the bar*/
+  color: white;
 }
-.icon:hover{
-  background: green;
+.nav{
+  margin-left: 40px;
+  height: 40px;
+  line-height: 40px; /*for vertical align*/
+  font-size: 12px;
+  padding: 0 5px;
 }
-.icon1{
-  margin:0;
+.nav:hover{
+  color:#3498db
+}
+.nav1{
+  margin-left: 0;
+}
+.lastnav{
+  background: #3498db;
+}
+.box{
+  display: inline-block;
+  background: blue;
+  height: 700px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 50px;
+  color: white;
+}
+h1{
+  font-size: 60px;
+}
+h3{
+  margin-bottom: 0;
+}
+p{
+  font-size: 20px;
+}
+.box1{
+  padding-top: 150px;
+  background: #472f28;
+  text-align: center;
+}
+.box2{
+  display: flex;
+  background: whitesmoke;
+  color: #555;
+  height: auto;
+}
+#hangout{
+  width: 400px;
+  height: auto;
+  margin-left: 30px;
+}
+.button{
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+.button1{
+  background: none;
+  font-size: 15px;
+  border: 1px solid white;
+}
+.button1:hover{
+  background: white;
+  color: #555;
+}
+.button2{
+  background: #3498db;
+  font-size: 15px;
+}
+.button2:hover{
+  background: #1f74ad;
+}
+.box3{
+  display: flex;
+  padding: 0;
+  height: auto;
+}
+.box3s{
+  text-align: center;
+  padding: 40px 20px;
+}
+.box3_1{
+  background: #9b6bcc;
+}
+.box3_2{
+  background: #e74c3c;
+}
+.box3_3{
+  background: #3498db;
+}
+.bigsize{
+  font-size: 25px;
+  margin-bottom: 0;
+}
+.mediumsize{
+  font-size: 18px;
+}
+.smallsize{
+  margin-top: 5px;
+  font-size: 14px;
 }
 .footer{
   background: green;
